@@ -34,6 +34,7 @@ scissors = '''
 
     
 '''
+
 import random
 
 user_choice=int(input("what do you choose? Type 0 for rock, 1 for paper and 2 for scissors.\n"))
@@ -50,21 +51,21 @@ print(RPS[computer_choice])
 
 if user_choice == 0 and computer_choice == 2:
     
-    print("You Win!")
+      print("You Win!")
 
 elif computer_choice > user_choice:
     
-    print("You lose.")
+      print("You lose.")
 
 if computer_choice==0 and user_choice==2:
     
-    print("You lose.")
+      print("You lose.")
 
 elif user_choice > computer_choice:
     
-    print("You Win!")
+      print("You Win!")
 
 else:
     
-    print("Its draw.")
+      print("Its draw.")
 
